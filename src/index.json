@@ -7,12 +7,53 @@
             "authors": [
                 [
                     {
-                        "name": "Anonymous authors",
+                        "name": "Jiahao Cui",
                         "homepage": "",
-                        "suffix": "1*"
+                        "suffix": ""
+                    },
+                    {
+                        "name": "Hui Li",
+                        "homepage": "",
+                        "suffix": ""
+                    },
+                    {
+                        "name": "Yao Yao",
+                        "homepage": "",
+                        "suffix": ""
+                    },
+                    {
+                        "name": "Hao Zhu",
+                        "homepage": "",
+                        "suffix": ""
+                    },
+                    {
+                        "name": "Hanlin Shang",
+                        "homepage": "",
+                        "suffix": ""
+                    },
+                    {
+                        "name": "Kaihui Cheng",
+                        "homepage": "",
+                        "suffix": ""
                     }
                 ],
-                [],
+                [
+                    {
+                        "name": "Hang Zhou",
+                        "homepage": "",
+                        "suffix": ""
+                    },
+                    {
+                        "name": "Siyu Zhu",
+                        "homepage": "",
+                        "suffix": "@"
+                    },
+                    {
+                        "name": "Jingdong Wang",
+                        "homepage": "",
+                        "suffix": ""
+                    }
+                ],
                 []
             ],
             "resources": {
@@ -34,7 +75,10 @@
     {
         "template": "framework",
         "props": {
-            "image": "//cdn.aondata.work/hallo2/images/overview.jpg",
+            "images": [
+                "//cdn.aondata.work/hallo2/images/overview.jpg",
+                "//cdn.aondata.work/hallo2/images/overview_module.jpg"
+            ],
             "description": ""
         }
     },

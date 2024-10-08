@@ -2,7 +2,7 @@
     <section class="framework">
         <h3>Framework</h3>
         <div>
-            <img :src="image">
+            <img v-for="image in images" :src="image">
             <br>
             <p>{{ description }}</p>
         </div>
@@ -12,12 +12,12 @@
 
 <script setup lang="ts">
 interface Props {
-    image?: string
+    images?: string[]
     description?: string
 }
 
 const { props } = defineProps<{ props: Props }>()
-const image = (props.image || "").startsWith("assets") ? new URL(`../${props.image}`, import.meta.url).href : props.image
+const images = (props.images || []).map(image => (image || "").startsWith("assets") ? new URL(`../${image}`, import.meta.url).href : image)
 const description = props.description
 </script>
 
@@ -28,5 +28,9 @@ const description = props.description
         @apply w-full;
     }
 
+}
+
+img {
+    @apply my-2;
 }
 </style>
