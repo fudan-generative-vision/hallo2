@@ -86,7 +86,7 @@
         "template": "video-carousel",
         "props": {
             "id": "long_duration",
-            "title": "Long-Duration",
+            "title": "Long Duration (up to 1-Hour)",
             "items": [
                 "//cdn.aondata.work/hallo2/videos/HQ.mp4",
                 "//cdn.aondata.work/hallo2/videos/1503.mp4",
@@ -102,7 +102,7 @@
         "template": "video-carousel",
         "props": {
             "id": "high_resolution",
-            "title": "High-Resolution",
+            "title": "High Resolution (1080P, 4K)",
             "items": [
                 "//cdn.aondata.work/hallo2/videos/high_res/HiRes1.mp4",
                 "//cdn.aondata.work/hallo2/videos/high_res/HiRes2.mp4",
@@ -116,7 +116,7 @@
         "template": "video-carousel",
         "props": {
             "id": "out_of_domain",
-            "title": "Out of Domain",
+            "title": "Different Portrait Styles",
             "items": [
                 "//cdn.aondata.work/hallo2/videos/out_of_domain/0.mp4",
                 "//cdn.aondata.work/hallo2/videos/out_of_domain/1.mp4",
