@@ -57,10 +57,10 @@
                 []
             ],
             "resources": {
-                "pdf": "https://github.com/fudan-generative-vision/hallo",
-                "arxiv": "https://github.com/fudan-generative-vision/hallo",
-                "github": "https://github.com/fudan-generative-vision/hallo",
-                "huggingface": "https://huggingface.co/fudan-generative-ai/hallo"
+                "pdf": "https://github.com/fudan-generative-vision/hallo2",
+                "arxiv": "https://github.com/fudan-generative-vision/hallo2",
+                "github": "https://github.com/fudan-generative-vision/hallo2",
+                "huggingface": "https://huggingface.co/fudan-generative-ai/hallo2"
             },
             "mainVideo": ""
         }
