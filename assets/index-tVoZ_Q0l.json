@@ -76,10 +76,27 @@
         "template": "framework",
         "props": {
             "images": [
-                "//cdn.aondata.work/hallo2/images/overview.jpg",
-                "//cdn.aondata.work/hallo2/images/overview_module.jpg"
+                "//cdn.aondata.work/hallo2/images/overview.jpg"
             ],
             "description": ""
+        }
+    },
+    {
+        "template": "video-carousel",
+        "props": {
+            "id": "high_resolution",
+            "title": "High Resolution (1080P, 4K)",
+            "items": [
+                "//cdn.aondata.work/hallo2/videos/high_res/HiRes1.mp4",
+                "//cdn.aondata.work/hallo2/videos/high_res/HiRes2.mp4",
+                "//cdn.aondata.work/hallo2/videos/high_res/HiRes3.mp4",
+                "//cdn.aondata.work/hallo2/videos/high_res/HiRes4.mp4",
+                "//cdn.aondata.work/hallo2/videos/high_res/HiRes5.mp4",
+                "//cdn.aondata.work/hallo2/videos/high_res/HiRes6.mp4",
+                "//cdn.aondata.work/hallo2/videos/high_res/HiRes7.mp4",
+                "//cdn.aondata.work/hallo2/videos/high_res/HiRes8.mp4"
+            ],
+            "count": 2
         }
     },
     {
@@ -96,20 +113,6 @@
                 "//cdn.aondata.work/hallo2/videos/long_duration/TomCotton.mp4"
             ],
             "count": 3
-        }
-    },
-    {
-        "template": "video-carousel",
-        "props": {
-            "id": "high_resolution",
-            "title": "High Resolution (1080P, 4K)",
-            "items": [
-                "//cdn.aondata.work/hallo2/videos/high_res/HiRes1.mp4",
-                "//cdn.aondata.work/hallo2/videos/high_res/HiRes2.mp4",
-                "//cdn.aondata.work/hallo2/videos/high_res/HiRes3.mp4",
-                "//cdn.aondata.work/hallo2/videos/high_res/HiRes4.mp4"
-            ],
-            "count": 2
         }
     },
     {
