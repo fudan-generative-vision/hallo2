@@ -9,56 +9,72 @@
                     {
                         "name": "Jiahao Cui",
                         "homepage": "",
-                        "suffix": ""
+                        "suffix": "1*"
                     },
                     {
                         "name": "Hui Li",
-                        "homepage": "",
-                        "suffix": ""
+                        "homepage": "https://github.com/crystallee-ai",
+                        "suffix": "1*"
                     },
                     {
                         "name": "Yao Yao",
-                        "homepage": "",
-                        "suffix": ""
+                        "homepage": "https://yoyo000.github.io/",
+                        "suffix": "3"
                     },
                     {
                         "name": "Hao Zhu",
-                        "homepage": "",
-                        "suffix": ""
+                        "homepage": "http://zhuhao.cc/home/",
+                        "suffix": "3"
                     },
                     {
                         "name": "Hanlin Shang",
-                        "homepage": "",
-                        "suffix": ""
+                        "homepage": "https://github.com/NinoNeumann",
+                        "suffix": "1"
                     },
                     {
                         "name": "Kaihui Cheng",
-                        "homepage": "",
-                        "suffix": ""
+                        "homepage": "https://github.com/Kaihui-Cheng",
+                        "suffix": "1"
                     },
                     {
                         "name": "Hang Zhou",
                         "homepage": "",
-                        "suffix": ""
+                        "suffix": "2"
                     }
                 ],
                 [
                     {
                         "name": "Siyu Zhu",
-                        "homepage": "",
-                        "suffix": "✉️"
+                        "homepage": "https://sites.google.com/site/zhusiyucs/home",
+                        "suffix": "1✉️"
                     },
                     {
                         "name": "Jingdong Wang",
-                        "homepage": "",
-                        "suffix": ""
+                        "homepage": "https://jingdongwang2017.github.io/",
+                        "suffix": "2*"
                     }
                 ],
-                []
+                [
+                    {
+                        "name": "Fudan University",
+                        "homepage": "",
+                        "prefix": "1"
+                    },
+                    {
+                        "name": "Baidu Inc.",
+                        "homepage": "",
+                        "prefix": "2"
+                    },
+                    {
+                        "name": "Nanjing University",
+                        "homepage": "",
+                        "prefix": "3"
+                    }
+                ]
             ],
             "resources": {
-                "pdf": "https://github.com/fudan-generative-vision/hallo2",
-                "arxiv": "https://github.com/fudan-generative-vision/hallo2",
+                "pdf": "https://arxiv.org/pdf/2410.07718",
+                "arxiv": "https://arxiv.org/abs/2410.07718",
                 "github": "https://github.com/fudan-generative-vision/hallo2",
                 "huggingface": "https://huggingface.co/fudan-generative-ai/hallo2"
             },
@@ -134,7 +150,7 @@
     {
         "template": "bibtex",
         "props": {
-            "bibTeX": "@misc{xu2024hallo2,\n\ttitle={Hallo2: Long-Duration and High-Resolution Audio-driven Portrait Image Animation}, \n\tauthor={},\n\tyear={2024},\n\teprint={},\n\tarchivePrefix={arXiv},\n\tprimaryClass={cs.CV}\n}"
+            "bibTeX": "@misc{cui2024hallo2,\n\ttitle={Hallo2: Long-Duration and High-Resolution Audio-driven Portrait Image Animation}, \n\tauthor={Jiahao Cui and Hui Li and Yao Yao and Hao Zhu and Hanlin Shang and Kaihui Cheng and Hang Zhou and Siyu Zhu and️ Jingdong Wang},\n\tyear={2024},\n\teprint={2410.07718},\n\tarchivePrefix={arXiv},\n\tprimaryClass={cs.CV}\n}"
         }
     }
 ]
