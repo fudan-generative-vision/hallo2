@@ -1,7 +1,7 @@
 <template>
     <section class="abstract">
         <div>
-            <!-- <h3>Abstract</h3> -->
+            <h3>Abstract</h3>
             <div v-if="figure" class="figure">
                 <img :src="figure">
             </div>
