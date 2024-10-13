@@ -87,7 +87,9 @@
             "id": "showcase",
             "title": "Amazing Showcases Powered By Hallo2",
             "items": [
-                "//cdn.aondata.work/hallo2/videos/showcases/darkest_hour_short.mp4"
+                "//cdn.aondata.work/hallo2/videos/showcases/DarkestHour.mp4",
+                "//cdn.aondata.work/hallo2/videos/showcases/OnlineCourse.mp4",
+                "//cdn.aondata.work/hallo2/videos/showcases/TailorSpeech.mp4"
             ],
             "count": 1
         }
