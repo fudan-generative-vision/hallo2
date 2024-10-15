@@ -1,4 +1,4 @@
-import { inVisible } from '@/utils/video'
+import { attachVideo, detachVideo, inVisible } from '@/utils/video'
 
 const videos = new Map<HTMLVideoElement, DOMRect>()
 
@@ -12,6 +12,11 @@ function playOrPause(video: HTMLVideoElement) {
 
 const onscroll = (evt: Event) => {
   for (const video of videos.keys()) {
+    if (video.getAttribute('data-src')) {
+      if (inVisible(video)) {
+        attachVideo(video)
+      }
+    }
     playOrPause(video)
   }
 }
@@ -21,7 +26,14 @@ export default {
   option: {
     mounted: (el: HTMLElement) => {
       if (el instanceof HTMLVideoElement) {
-        videos.set(el, el.getBoundingClientRect())
+        const rect = el.getBoundingClientRect()
+        videos.set(el, rect)
+        // 如果视频在页面窗口内，则加载，否则detach
+        if (inVisible(el)) {
+          attachVideo(el)
+        } else {
+          detachVideo(el)
+        }
         el.oncanplay = () => {
           videos.set(el, el.getBoundingClientRect())
           playOrPause(el)

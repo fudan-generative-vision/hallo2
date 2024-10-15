@@ -78,7 +78,7 @@ for (let i = 0; i < items.length; i++) {
 
 import { ref, onMounted } from 'vue';
 import { initTWE, Carousel } from 'tw-elements';
-import { inVisible } from '@/utils/video';
+import { attachVideo, inVisible } from '@/utils/video';
 import { store } from '@/store'
 
 const carouselElement = ref<HTMLElement>();
@@ -99,14 +99,11 @@ onMounted(async () => {
     console.log("initialized", store.tweInitializing["Carousel"])
 
     carouselElement.value?.addEventListener('slide.twe.carousel', (v: any) => {
-        const from = v.from;
-        const to = v.to;
-        videos.value[2 * from]?.pause();
-        videos.value[2 * from + 1]?.pause();
-        // if (inVisible(videos.value[2 * from])) {
-        //     videos.value[2 * to].play();
-        //     videos.value[2 * to + 1].play();
-        // }
+        const relatedTarget = v.relatedTarget
+        const videoElements = relatedTarget.querySelectorAll('video')
+        for (const video of videoElements) {
+            attachVideo(video)
+        }
     })
 });
 

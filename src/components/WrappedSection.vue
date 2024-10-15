@@ -1,10 +1,10 @@
 <template>
     <TitleSection v-if="template === 'title'" :props="props"></TitleSection>
     <AbstractSection v-if="template === 'abstract'" :props="props"></AbstractSection>
-    <FrameworkSection v-if="template === 'framework'" :props="props" />
+    <!-- <FrameworkSection v-if="template === 'framework'" :props="props" />
     <VideoComparision v-if="template === 'video-comparision'" :props="props" />
     <TextVideo v-if="template === 'text-video'" :props="props" />
-    <SingleVideo v-if="template === 'single-video'" :props="props" />
+    <SingleVideo v-if="template === 'single-video'" :props="props" /> -->
     <VideoCarousel v-if="template === 'video-carousel'" :props="props" />
     <BibTeX v-if="template === 'bibtex'" :props="props" />
 </template>
