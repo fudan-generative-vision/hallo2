@@ -28,23 +28,6 @@
 </div>
 <br>
 
-> This repo is based on [Hallo](https://github.com/fudan-generative-vision/hallo).
->
-> We have made significant improvements(**High-Resolution** and **Long-Duration**) to the original model architecture and training pipeline.
-
-## 📰 News
-
-- **`2024/10/16`**: ✨✨✨ Source code and pretrained weights released.
-- **`2024/10/10`**: 🎉🎉🎉 Paper submitted on [Arxiv](https://arxiv.org/abs/2410.07718).
-
-## 📅️ Roadmap
-
-| Status | Milestone                                                                                    |    ETA     |
-| :----: | :------------------------------------------------------------------------------------------- | :--------: |
-|   ✅   | **[Paper submitted on Arixiv](https://arxiv.org/abs/2410.07718)**                            | 2024-10-10 |
-|   ✅   | **[Source code meet everyone on GitHub](https://github.com/fudan-generative-vision/hallo2)** | 2024-10-16 |
-|   🚀   | **[Accelerate performance on inference]()**                                                  |    TBD     |
-
 ## 📸 Showcase
 
 <table class="center">
@@ -67,6 +50,19 @@
 </table>
 
 Visit our [project page](https://fudan-generative-vision.github.io/hallo2/#/) to view more results.
+
+## 📰 News
+
+- **`2024/10/16`**: ✨✨✨ Source code and pretrained weights released.
+- **`2024/10/10`**: 🎉🎉🎉 Paper submitted on [Arxiv](https://arxiv.org/abs/2410.07718).
+
+## 📅️ Roadmap
+
+| Status | Milestone                                                                                    |    ETA     |
+| :----: | :------------------------------------------------------------------------------------------- | :--------: |
+|   ✅   | **[Paper submitted on Arixiv](https://arxiv.org/abs/2410.07718)**                            | 2024-10-10 |
+|   ✅   | **[Source code meet everyone on GitHub](https://github.com/fudan-generative-vision/hallo2)** | 2024-10-16 |
+|   🚀   | **[Accelerate performance on inference]()**                                                  |    TBD     |
 
 ## 🔧️ Framework
 
