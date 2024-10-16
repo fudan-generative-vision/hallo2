@@ -147,15 +147,6 @@
         }
     },
     {
-        "template": "framework",
-        "props": {
-            "images": [
-                "//cdn.aondata.work/hallo2/images/overview.jpg"
-            ],
-            "description": ""
-        }
-    },
-    {
         "template": "abstract",
         "props": {
             "figure": "//cdn.aondata.work/hallo2/images/teaser.jpg",
