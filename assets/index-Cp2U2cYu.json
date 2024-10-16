@@ -87,7 +87,11 @@
             "id": "showcase",
             "title": "Hallo2 Showcase (4K, up to 1 hour)",
             "items": [
-                "//cdn.aondata.work/hallo2/videos/showcases/DarkestHour.mp4"
+                "//cdn.aondata.work/hallo2/videos/showcases/TailorSpeech.mp4",
+                "//cdn.aondata.work/hallo2/videos/showcases/DarkestHour.mp4",
+                "//cdn.aondata.work/hallo2/videos/showcases/TEDSpeech.mp4",
+                "//cdn.aondata.work/hallo2/videos/showcases/LLMCourse.mp4",
+                "//cdn.aondata.work/hallo2/videos/showcases/Talkshow.mp4"
             ],
             "count": 1
         }
