@@ -37,13 +37,39 @@
 - **`2024/10/16`**: ✨✨✨ Source code and pretrained weights released.
 - **`2024/10/10`**: 🎉🎉🎉 Paper submitted on [Arxiv](https://arxiv.org/abs/2410.07718).
 
+## 📅️ Roadmap
+
+| Status | Milestone                                                                                    |    ETA     |
+| :----: | :------------------------------------------------------------------------------------------- | :--------: |
+|   ✅   | **[Paper submitted on Arixiv](https://arxiv.org/abs/2410.07718)**                            | 2024-10-10 |
+|   ✅   | **[Source code meet everyone on GitHub](https://github.com/fudan-generative-vision/hallo2)** | 2024-10-16 |
+|   🚀   | **[Accelerate performance on inference]()**                                                  |    TBD     |
+
 ## 📸 Showcase
+
+<table class="center">
+  <tr>
+    <td style="text-align: center"><b>Speech1</b></td>
+    <td style="text-align: center"><b>Speech2</b></td>
+  </tr>
+  <tr>
+    <td style="text-align: center"><a target="_blank" href="https://cdn.aondata.work/hallo2/videos/showcases/TailorSpeech.mp4"><img src="https://cdn.aondata.work/hallo2/videos/showcases/gifs/TailorSpeechGIF.gif"></a></td>
+    <td style="text-align: center"><a target="_blank" href="https://cdn.aondata.work/hallo2/videos/showcases/TEDSpeech.mp4"><img src="https://cdn.aondata.work/hallo2/videos/showcases/gifs/TEDSpeechGIF.gif"></a></td>
+  </tr>
+  <tr>
+    <td style="text-align: center"><b>Movie Line</b></td>
+    <td style="text-align: center"><b>Live Course</b></td>
+  </tr>
+  <tr>
+    <td style="text-align: center"><a target="_blank" href="https://cdn.aondata.work/hallo2/videos/showcases/DarkestHour.mp4"><img src="https://cdn.aondata.work/hallo2/videos/showcases/gifs/DarkestHour.gif"></a></td>
+    <td style="text-align: center"><a target="_blank" href="https://cdn.aondata.work/hallo2/videos/showcases/LLMCourse.mp4"><img src="https://cdn.aondata.work/hallo2/videos/showcases/gifs/LLMCourseGIF.gif"></a></td>
+  </tr>
+</table>
 
 Visit our [project page](https://fudan-generative-vision.github.io/hallo2/#/) to view more results.
 
 ## 🔧️ Framework
 
-![abstract](assets/framework_1.jpg)
 ![framework](assets/framework_2.jpg)
 
 ## ⚙️ Installation
@@ -356,15 +382,6 @@ python -m torch.distributed.launch --nproc_per_node=8 --master_port=4322 \
 basicsr/train.py -opt ./configs/train/video_sr.yaml \
 --launcher pytorch
 ```
-
-## 📅️ Roadmap
-
-| Status | Milestone                                                                                    |    ETA     |
-| :----: | :------------------------------------------------------------------------------------------- | :--------: |
-|   ✅   | **[Paper submitted on Arixiv](https://arxiv.org/abs/2410.07718)**                            | 2024-10-10 |
-|   ✅   | **[Source code meet everyone on GitHub](https://github.com/fudan-generative-vision/hallo2)** | 2024-10-16 |
-|   🚀   | **[Accelerate performance on inference]()**                                                  |    TBD     |
-|   🚀   | **[More funny showcase]()**                                                                  |    TBD     |
 
 ## 📝 Citation
 
