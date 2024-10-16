@@ -32,16 +32,16 @@
 
 <table class="center">
   <tr>
-    <td style="text-align: center"><b>Speech1</b></td>
-    <td style="text-align: center"><b>Speech2</b></td>
+    <td style="text-align: center"><b>Tailor Swift Speech @ NYU (4K, 23 minutes)</b></td>
+    <td style="text-align: center"><b>Johan Rockstrom Speech @ TED (4K, 18 minutes)</b></td>
   </tr>
   <tr>
     <td style="text-align: center"><a target="_blank" href="https://cdn.aondata.work/hallo2/videos/showcases/TailorSpeech.mp4"><img src="https://cdn.aondata.work/hallo2/videos/showcases/gifs/TailorSpeechGIF.gif"></a></td>
     <td style="text-align: center"><a target="_blank" href="https://cdn.aondata.work/hallo2/videos/showcases/TEDSpeech.mp4"><img src="https://cdn.aondata.work/hallo2/videos/showcases/gifs/TEDSpeechGIF.gif"></a></td>
   </tr>
   <tr>
-    <td style="text-align: center"><b>Movie Line</b></td>
-    <td style="text-align: center"><b>Live Course</b></td>
+    <td style="text-align: center"><b>Churchill's Iron Curtain Speech (4K, 4 minutes)</b></td>
+    <td style="text-align: center"><b>An LLM Course from Stanford (4K, up to 1 hour)</b></td>
   </tr>
   <tr>
     <td style="text-align: center"><a target="_blank" href="https://cdn.aondata.work/hallo2/videos/showcases/DarkestHour.mp4"><img src="https://cdn.aondata.work/hallo2/videos/showcases/gifs/DarkestHour.gif"></a></td>
@@ -49,7 +49,7 @@
   </tr>
 </table>
 
-Visit our [project page](https://fudan-generative-vision.github.io/hallo2/#/) to view more results.
+Visit our [project page](https://fudan-generative-vision.github.io/hallo2/#/) to view more cases.
 
 ## 📰 News
 
