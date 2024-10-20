@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  hallo2:
+    build:
+      context: .
+      dockerfile: Dockerfile.cu12
+    volumes:
+      - .:/app
+    # command: python scripts/inference_long.py --config ./configs/inference/long.yaml
+    tty: true
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
