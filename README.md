@@ -73,6 +73,13 @@ Visit our [project page](https://fudan-generative-vision.github.io/hallo2/#/) to
 - System requirement: Ubuntu 20.04/Ubuntu 22.04, Cuda 11.8
 - Tested GPUs: A100
 
+Download the codes:
+
+```bash
+  git clone https://github.com/fudan-generative-vision/hallo2
+  cd hallo2
+```
+
 Create conda environment:
 
 ```bash
