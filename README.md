@@ -105,11 +105,12 @@ Besides, ffmpeg is also needed:
 
 You can easily get all pretrained models required by inference from our [HuggingFace repo](https://huggingface.co/fudan-generative-ai/hallo2).
 
-Clone the pretrained models into `${PROJECT_ROOT}/pretrained_models` directory by cmd below:
+Using `huggingface-cli` to download the models:
 
 ```shell
-git lfs install
-git clone https://huggingface.co/fudan-generative-ai/hallo2 pretrained_models
+cd $ProjectRootDir
+pip install huggingface-cli
+huggingface-cli download fudan-generative-ai/hallo --local-dir ./pretrained_models
 ```
 
 Or you can download them separately from their source repo:
