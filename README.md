@@ -24,32 +24,62 @@
     <a href='https://fudan-generative-vision.github.io/hallo2/#/'><img src='https://img.shields.io/badge/Project-HomePage-Green'></a>
     <a href='https://arxiv.org/abs/2410.07718'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
     <a href='https://huggingface.co/fudan-generative-ai/hallo2'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Model-yellow'></a>
+    <a href='https://openbayes.com/console/public/tutorials/8KOlYWsdiY4'><img src='https://img.shields.io/badge/Demo-OpenBayes贝式计算-orange'></a>
     <a href='assets/wechat.jpeg'><img src='https://badges.aleen42.com/src/wechat.svg'></a>
 </div>
 <br>
 
-> This repo is based on [Hallo](https://github.com/fudan-generative-vision/hallo).
->
-> We have made significant improvements(**High-Resolution** and **Long-Duration**) to the original model architecture and training pipeline.
+## 📸 Showcase
+
+<table class="center">
+  <tr>
+    <td style="text-align: center"><b>Tailor Swift Speech @ NYU (4K, 23 minutes)</b></td>
+    <td style="text-align: center"><b>Johan Rockstrom Speech @ TED (4K, 18 minutes)</b></td>
+  </tr>
+  <tr>
+    <td style="text-align: center"><a target="_blank" href="https://cdn.aondata.work/hallo2/videos/showcases/TailorSpeech.mp4"><img src="https://cdn.aondata.work/hallo2/videos/showcases/gifs/TailorSpeechGIF.gif"></a></td>
+    <td style="text-align: center"><a target="_blank" href="https://cdn.aondata.work/hallo2/videos/showcases/TEDSpeech.mp4"><img src="https://cdn.aondata.work/hallo2/videos/showcases/gifs/TEDSpeechGIF.gif"></a></td>
+  </tr>
+  <tr>
+    <td style="text-align: center"><b>Churchill's Iron Curtain Speech (4K, 4 minutes)</b></td>
+    <td style="text-align: center"><b>An LLM Course from Stanford (4K, up to 1 hour)</b></td>
+  </tr>
+  <tr>
+    <td style="text-align: center"><a target="_blank" href="https://cdn.aondata.work/hallo2/videos/showcases/DarkestHour.mp4"><img src="https://cdn.aondata.work/hallo2/videos/showcases/gifs/DarkestHour.gif"></a></td>
+    <td style="text-align: center"><a target="_blank" href="https://cdn.aondata.work/hallo2/videos/showcases/LLMCourse.mp4"><img src="https://cdn.aondata.work/hallo2/videos/showcases/gifs/LLMCourseGIF.gif"></a></td>
+  </tr>
+</table>
+
+Visit our [project page](https://fudan-generative-vision.github.io/hallo2/#/) to view more cases.
 
 ## 📰 News
 
 - **`2024/10/16`**: ✨✨✨ Source code and pretrained weights released.
 - **`2024/10/10`**: 🎉🎉🎉 Paper submitted on [Arxiv](https://arxiv.org/abs/2410.07718).
 
-## 📸 Showcase
+## 📅️ Roadmap
 
-Visit our [project page](https://fudan-generative-vision.github.io/hallo2/#/) to view more results.
+| Status | Milestone                                                                                    |    ETA     |
+| :----: | :------------------------------------------------------------------------------------------- | :--------: |
+|   ✅   | **[Paper submitted on Arixiv](https://arxiv.org/abs/2410.07718)**                            | 2024-10-10 |
+|   ✅   | **[Source code meet everyone on GitHub](https://github.com/fudan-generative-vision/hallo2)** | 2024-10-16 |
+|   🚀   | **[Accelerate performance on inference]()**                                                  |    TBD     |
 
 ## 🔧️ Framework
 
-![abstract](assets/framework_1.jpg)
 ![framework](assets/framework_2.jpg)
 
 ## ⚙️ Installation
 
 - System requirement: Ubuntu 20.04/Ubuntu 22.04, Cuda 11.8
 - Tested GPUs: A100
+
+Download the codes:
+
+```bash
+  git clone https://github.com/fudan-generative-vision/hallo2
+  cd hallo2
+```
 
 Create conda environment:
 
@@ -75,11 +105,12 @@ Besides, ffmpeg is also needed:
 
 You can easily get all pretrained models required by inference from our [HuggingFace repo](https://huggingface.co/fudan-generative-ai/hallo2).
 
-Clone the pretrained models into `${PROJECT_ROOT}/pretrained_models` directory by cmd below:
+Using `huggingface-cli` to download the models:
 
 ```shell
-git lfs install
-git clone https://huggingface.co/fudan-generative-ai/hallo2 pretrained_models
+cd $ProjectRootDir
+pip install huggingface-cli
+huggingface-cli download fudan-generative-ai/hallo2 --local-dir ./pretrained_models
 ```
 
 Or you can download them separately from their source repo:
@@ -356,15 +387,6 @@ python -m torch.distributed.launch --nproc_per_node=8 --master_port=4322 \
 basicsr/train.py -opt ./configs/train/video_sr.yaml \
 --launcher pytorch
 ```
-
-## 📅️ Roadmap
-
-| Status | Milestone                                                                                    |    ETA     |
-| :----: | :------------------------------------------------------------------------------------------- | :--------: |
-|   ✅   | **[Paper submitted on Arixiv](https://arxiv.org/abs/2410.07718)**                            | 2024-10-10 |
-|   ✅   | **[Source code meet everyone on GitHub](https://github.com/fudan-generative-vision/hallo2)** | 2024-10-16 |
-|   🚀   | **[Accelerate performance on inference]()**                                                  |    TBD     |
-|   🚀   | **[More funny showcase]()**                                                                  |    TBD     |
 
 ## 📝 Citation
 
