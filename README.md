@@ -18,6 +18,10 @@
     <sup>1</sup>Fudan University&emsp; <sup>2</sup>Baidu Inc&emsp; <sup>3</sup>Nanjing University
 </div>
 
+<div align='Center'>
+<i><strong><a href='https://iclr.cc/Conferences/2025' target='_blank'>ICLR 2025</a></strong></i>
+</div>
+
 <br>
 <div align='center'>
     <a href='https://github.com/fudan-generative-vision/hallo2'><img src='https://img.shields.io/github/stars/fudan-generative-vision/hallo2?style=social'></a>
@@ -54,6 +58,7 @@ Visit our [project page](https://fudan-generative-vision.github.io/hallo2/#/) to
 
 ## 📰 News
 
+- **`2025/01/23`**: 🎉🎉🎉 Our paper has been accepted to [ICLR 2025](https://iclr.cc/Conferences/2025).
 - **`2024/10/16`**: ✨✨✨ Source code and pretrained weights released.
 - **`2024/10/10`**: 🎉🎉🎉 Paper submitted on [Arxiv](https://arxiv.org/abs/2410.07718).
 
@@ -271,7 +276,7 @@ options:
 
 > NOTICE: The High-Resolution animation feature is a modified version of [CodeFormer](https://github.com/sczhou/CodeFormer). When using or redistributing this feature, please comply with the [S-Lab License 1.0](https://github.com/sczhou/CodeFormer?tab=License-1-ov-file). We kindly request that you respect the terms of this license in any usage or redistribution of this component.
 
-## Training
+## &#x1F525;Training
 
 ### Long-Duration animation
 
