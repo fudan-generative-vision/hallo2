@@ -3,7 +3,7 @@ audio-separator==0.17.2
 av==12.1.0
 bitsandbytes==0.43.1
 decord==0.6.0
-diffusers==0.27.2
+diffusers==0.32.2
 einops==0.8.0
 ffmpeg-python==0.2.0
 icecream==2.1.3
