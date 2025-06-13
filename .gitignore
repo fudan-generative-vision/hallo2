@@ -168,4 +168,6 @@ cython_debug/
 pretrained_models
 test_data
 output_long
-hq_results
+
+cache/
+.cache/
