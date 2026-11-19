@@ -62,6 +62,7 @@ Attributes:
 
 import importlib
 import os
+from contextlib import ExitStack
 import os.path as osp
 import random
 import shutil
@@ -347,23 +348,20 @@ def tensor_to_video_batch(tensor, output_video_file, start, audio_source, fps=25
     new_video_clip.write_videofile(output_video_file, fps=fps, audio_codec='aac')
 
 def merge_videos(input_directory, output_file):
-    video_files = [f for f in os.listdir(input_directory) if f.endswith('.mp4')]
-    
-    video_files.sort()  
+    video_files = sorted(f for f in os.listdir(input_directory) if f.endswith('.mp4'))
+    if not video_files:
+        raise ValueError(f"No MP4 clips found in {input_directory}")
 
-    clips = []
-    
-    for video_file in video_files:
-        file_path = os.path.join(input_directory, video_file)
-        clip = VideoFileClip(file_path)
-        clips.append(clip)
+    with ExitStack() as cleanup:
+        clips = []
+        for video_file in video_files:
+            clip = VideoFileClip(os.path.join(input_directory, video_file))
+            cleanup.callback(clip.close)
+            clips.append(clip)
 
-    final_clip = concatenate_videoclips(clips)
-
-    final_clip.write_videofile(output_file, codec="libx264")
-
-    for clip in clips:
-        clip.close()
+        final_clip = concatenate_videoclips(clips)
+        cleanup.callback(final_clip.close)
+        final_clip.write_videofile(output_file, codec="libx264")
 
 
 silhouette_ids = [
